@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Bangers&family=Finlandica:ital@1&family=Nothing+You+Could+Do&family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/E.png">
+    
+</head>
+<body>
+    <div class="head2" style="height:85px;">
+        <h1 id="title"> <a href="index.html">Estall</a></h1>
+        <input class="search" type="text">
+
+    </div>
+
+    <div class="cart-box">
+        <h1 class="emty">Your Cart is Empty</h1>
+        <h1 class="cartshoptitle">Shop Here</h1>
+    </div>
+
+
+<div style="display: none;">
+
+    <div class="product-box swiper-slide">
+      <img class="img-box" src="images/shoe3.png" alt="">
+         <h1 class="shoe1">Shoe3</h1>
+         <h2 class="price2">₹899 <span class="actualprice">1999</span></h2>
+         <div class="addtocart2">Add To Cart</div>
+   </div>
+   <div class="product-box swiper-slide">
+      <img class="img-box" src="images/shoe4.png" alt="">
+         <h1 class="shoe1">Shoe4</h1>
+         <h2 class="price2">₹499 <span class="actualprice">999</span></h2>
+         <div class="addtocart2">Add To Cart</div>
+   </div>
+  
+   
+</div>
+
+
+    
+    <div class="swiper mySwiper shoes">
+        <h1 class="title">Watches</h1>
+       <div class="swiper-wrapper">
+       
+          <div class="product-box swiper-slide" style="width: 310px;" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="images/watch1.png" alt="">
+                <h1 class="watch">Apple Watch 1</h1>
+                <h2 class="price2">₹16999 <span class="actualprice">19999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+            <img class="img-box" src="https://m.media-amazon.com/images/I/71ZOtNdaZCL._SX679_.jpg" alt="">
+               <h1 class="nametshirt">iPhone 12</h1>
+               <h2 class="price3">₹54999 <span class="actualprice">65999</span></h2>
+               <div class="addtocart2">Add To Cart</div>
+         </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="images/watch2.png" alt="">
+                <h1 class="watch">Apple Watch 2</h1>
+                <h2 class="price2">₹19999 <span class="actualprice">24999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="images/watch3.png" alt="">
+                <h1 class="watch">Apple Watch 3</h1>
+                <h2 class="price2">₹24999 <span class="actualprice">29999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="images/watch4.png" alt="" >
+                <h1 class="watch">Apple Watch 4</h1>
+                <h2 class="price2">₹32999 <span class="actualprice">34999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide">
+            <img class="img-box" src="images/cloth2.png" alt="" onclick="window.location.href='productpage.html';">
+               <h1 class="nametshirt">Cloth 2</h1>
+               <h2 class="price3">₹399 <span class="actualprice">699</span></h2>
+               <div class="addtocart2">Add To Cart</div>
+         </div>
+        
+       </div>
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+      </div>
+        </div>
+
+
+        <div class="footer2" >
+            <h1 class="footer-title">Follow Us</h1>
+          
+            <div class="socialmedia">
+              <a href="https://www.instagram.com" target="_blank"  class="socialmedialink"> 
+                Instagram
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" class="socialmedialink">
+                 Linkedin
+              </a>
+                <a href="https://www.facebook.com" target="_blank" class="socialmedialink" >
+                Facebook</a>
+            <div>
+          </div>
+    
+
+     
+        <script>
+             var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 100,
+        slidesPerGroup: 2,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+        </script>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    
+    
+</body>
+</html>

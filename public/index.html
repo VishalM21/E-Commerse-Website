@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Complete Responsive E-commerce Website Tutorial</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Bangers&family=Nothing+You+Could+Do&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/E.png">
+    
+
+</head>
+<body>
+  <div class="head">
+   <h1 id="title"> <a href="index.html">Estall</a> </h1>
+   <input class="search" type="text">
+   <a href="cart.html">  <img class="kart" src="images/cart.ico" alt=""> </a>
+ 
+  </div>
+      
+  <div class="container">
+    <div>
+      <button class="scrollbotton" onclick="plusDivs(-1)">&#10094;</button>
+
+    </div>
+    <div class="container-discription">
+      
+      <h1 style="color: white; margin: 0;">Nike's shoes</h1>
+      <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio odit recusandae nesciunt doloremque nulla velit?</p>
+       <p>⭐️⭐️⭐️⭐️⭐️</p>
+       <h1 class="price">₹699 <span style="text-decoration: line-through;color: white;"> ₹1499</span></h1>
+       <div class="addtocart">
+             Add To Cart
+       </div>
+    </div>
+    <div class="img1">
+      <img class="img1-pic" src="images/shoe3.png" alt="">
+    </div>
+    <div>
+      <button class="scrollbotton2" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div>
+      <button class="scrollbotton" onclick="plusDivs(-1)">&#10094;</button>
+
+    </div>
+
+    <div class="container-discription">
+      <h1 style="color: white; margin: 0;">Women's Clothing</h1>
+      <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio odit recusandae nesciunt doloremque nulla velit?</p>
+       <p>⭐️⭐️⭐️⭐️⭐️</p>
+       <h1 class="price">₹699 <span style="text-decoration: line-through;color: white;"> ₹1499</span></h1>
+       <div class="addtocart">
+            Add To Cart
+       </div>
+    </div>
+    <div class="img2">
+      <img class="img2-pic" src="images/cloth1.png" alt="">
+    </div>
+    <div>
+      <button class="scrollbotton2" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div>
+      <button class="scrollbotton" onclick="plusDivs(-1)">&#10094;</button>
+
+    </div>
+
+    <div class="container-discription">
+      <h1 style="color: white; margin: 0;">Apple Smartwatch</h1>
+      <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio odit recusandae nesciunt doloremque nulla velit?</p>
+       <p>⭐️⭐️⭐️⭐️⭐️</p>
+       <h1 class="price">₹19999 <span style="text-decoration: line-through;color: white;"> ₹29999</span></h1>
+       <div class="addtocart">
+            Add To Cart
+       </div>
+    </div>
+    <div class="img3">
+      <img class="img2-pic" src="images/watch4.png" alt="">
+    </div>
+    <div>
+      <button class="scrollbotton2" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+
+  </div>
+
+
+ <div>
+
+   <h1 id="products">Products</h1>
+ </div>
+ <div class="swiper mySwiper shoes">
+  <h1 class="title">Shoes</h1>
+ <div class="swiper-wrapper">
+ 
+    <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+       <img class="img-box" src="images/shoe1.png" alt="">
+          <h1 class="shoe1"><a id="shoe1" name="name" style="color: #4834D4;" href="productpage.html">Shoe1</a> </h1>
+          <h2 class="price2">₹699 <span class="actualprice">1299</span></h2>
+          <div class="addtocart2">Add To Cart</div>
+    </div>
+    <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+       <img class="img-box" src="images/shoe2.png" alt="">
+          <h1 class="shoe1">Shoe2</h1>
+          <h2 class="price2">₹799 <span class="actualprice">1499</span></h2>
+          <div class="addtocart2">Add To Cart</div>
+    </div>
+    <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+       <img class="img-box" src="images/shoe3.png" alt="">
+          <h1 class="shoe1">Shoe3</h1>
+          <h2 class="price2">₹899 <span class="actualprice">1999</span></h2>
+          <div class="addtocart2">Add To Cart</div>
+    </div>
+    <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+       <img class="img-box" src="images/shoe4.png" alt="">
+          <h1 class="shoe1">Shoe4</h1>
+          <h2 class="price2">₹499 <span class="actualprice">999</span></h2>
+          <div class="addtocart2">Add To Cart</div>
+    </div>
+    <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+       <img class="img-box" src="images/shoe5.png" alt="">
+          <h1 class="shoe1">Shoe5</h1>
+          <h2 class="price2">₹699 <span class="actualprice">1499</span></h2>
+          <div class="addtocart2">Add To Cart</div>
+    </div>
+    <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+       <img class="img-box" src="images/shoe5.png" alt="">
+          <h1 class="shoe1">Shoe5</h1>
+          <h2 class="price2">₹999 <span class="actualprice">2499</span></h2>
+          <div class="addtocart2">Add To Cart</div>
+    </div>
+  
+ </div>
+ <div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-pagination"></div>
+</div>
+  </div>
+
+
+
+  <div class="swiper mySwiper shoes">
+    <h1 class="title">Watches</h1>
+   <div class="swiper-wrapper">
+   
+      <div class="product-box swiper-slide" style="width: 310px;" onclick="window.location.href='productpage.html';">
+         <img class="img-box" src="images/watch1.png" alt="">
+            <h1 class="watch">Apple Watch 1</h1>
+            <h2 class="price2">₹16999 <span class="actualprice" onclick="window.location.href='productpage.html';">19999</span></h2>
+            <div class="addtocart2">Add To Cart</div>
+      </div>
+      <div class="product-box swiper-slide">
+         <img class="img-box" src="images/watch2.png" alt="">
+            <h1 class="watch">Apple Watch 2</h1>
+            <h2 class="price2">₹19999 <span class="actualprice" onclick="window.location.href='productpage.html';">24999</span></h2>
+            <div class="addtocart2">Add To Cart</div>
+      </div>
+      <div class="product-box swiper-slide">
+         <img class="img-box" src="images/watch3.png" alt="">
+            <h1 class="watch">Apple Watch 3</h1>
+            <h2 class="price2">₹24999 <span class="actualprice" onclick="window.location.href='productpage.html';">29999</span></h2>
+            <div class="addtocart2">Add To Cart</div>
+      </div>
+      <div class="product-box swiper-slide">
+         <img class="img-box" src="images/watch4.png" alt="">
+            <h1 class="watch">Apple Watch 4</h1>
+            <h2 class="price2">₹32999 <span class="actualprice" onclick="window.location.href='productpage.html';">34999</span></h2>
+            <div class="addtocart2">Add To Cart</div>
+      </div>
+    
+   </div>
+   <div class="swiper-button-next"></div>
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-pagination"></div>
+  </div>
+    </div>
+
+  
+    <div class="swiper mySwiper shoes">
+      <h1 class="title">T-shirts</h1>
+     <div class="swiper-wrapper">
+     
+        <div class="product-box swiper-slide" style="width: 310px;" onclick="window.location.href='productpage.html';">
+           <img class="img-box" src="images/shirt1.png" alt="">
+              <h1 class="nametshirt">Roadster T-shirt 1</h1>
+              <h2 class="price3">₹399 <span class="actualprice">699</span></h2>
+              <div class="addtocart2">Add To Cart</div>
+        </div>
+        <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+           <img class="img-box" src="images/shirt2.png" alt="">
+              <h1 class="nametshirt">Roadster T-shirt 2</h1>
+              <h2 class="price3">₹499 <span class="actualprice">799</span></h2>
+              <div class="addtocart2">Add To Cart</div>
+        </div>
+        <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+           <img class="img-box" src="images/shirt3.png" alt="">
+              <h1 class="nametshirt">Roadster T-shirt 3</h1>
+              <h2 class="price3">₹699 <span class="actualprice">999</span></h2>
+              <div class="addtocart2">Add To Cart</div>
+        </div>
+        <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+           <img class="img-box" src="images/shirt4.png" alt="">
+              <h1 class="nametshirt">Roadster T-shirt 4</h1>
+              <h2 class="price3">₹299 <span class="actualprice">599</span></h2>
+              <div class="addtocart2">Add To Cart</div>
+        </div>
+      
+     </div>
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-pagination"></div>
+    </div>
+      </div>
+
+
+      <div class="swiper mySwiper shoes" >
+        <h1 class="title">Women's Clothing</h1>
+       <div class="swiper-wrapper">
+       
+          <div class="product-box swiper-slide" style="width: 310px;" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="images/cloth1.png" alt="">
+                <h1 class="nametshirt">Cloth 1</h1>
+                <h2 class="price3">₹299 <span class="actualprice">599</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide">
+             <img class="img-box" src="images/cloth2.png" alt="" onclick="window.location.href='productpage.html';">
+                <h1 class="nametshirt">Cloth 2</h1>
+                <h2 class="price3">₹399 <span class="actualprice">699</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide">
+             <img class="img-box" src="images/cloth3.png" alt="" onclick="window.location.href='productpage.html';">
+                <h1 class="nametshirt">Cloth 3</h1>
+                <h2 class="price3">₹499 <span class="actualprice">799</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide">
+             <img class="img-box" src="images/cloth4.png" alt="" onclick="window.location.href='productpage.html';">
+                <h1 class="nametshirt">Cloth 4</h1>
+                <h2 class="price3">₹699 <span class="actualprice">999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+        
+       </div>
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+      </div>
+        </div>
+
+
+
+      <div class="swiper mySwiper shoes">
+        <h1 class="title">Women's Clothing</h1>
+       <div class="swiper-wrapper">
+       
+          <div class="product-box swiper-slide" style="width: 310px;" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/71PvHfU+pwL._SX522_.jpg" alt="">
+                <h1 class="nametshirt">Samsung S22 Ultra</h1>
+                <h2 class="price3">₹106999 <span class="actualprice">114999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/71ZOtNdaZCL._SX679_.jpg" alt="">
+                <h1 class="nametshirt">iPhone 12</h1>
+                <h2 class="price3">₹54999 <span class="actualprice">65999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="	https://m.media-amazon.com/images/I/61cecOpZrxL._SX679_.jpg" alt="">
+                <h1 class="nametshirt">iPhone 13</h1>
+                <h2 class="price3">₹69999 <span class="actualprice">79999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/61IahEs7nEL._SX522_.jpg" alt="">
+                <h1 class="nametshirt">Oneplus 10 Pro</h1>
+                <h2 class="price3">₹59999 <span class="actualprice">65999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/71EyTcGszpL._SX522_.jpg" alt="">
+                <h1 class="nametshirt">Google Pixel 6 Pro</h1>
+                <h2 class="price3">₹65999 <span class="actualprice">79999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/71C4pfJ7ecL._SX522_.jpg" alt="">
+                <h1 class="nametshirt">Redmi Note 11T 5G</h1>
+                <h2 class="price3">₹19999 <span class="actualprice">22999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/81r0nX8170L._SX522_.jpg" alt="">
+                <h1 class="nametshirt">IQoo 5 Pro</h1>
+                <h2 class="price3">₹16999 <span class="actualprice">19999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+          <div class="product-box swiper-slide" onclick="window.location.href='productpage.html';">
+             <img class="img-box" src="https://m.media-amazon.com/images/I/81k0MH-BD5L._SX522_.jpg" alt="">
+                <h1 class="nametshirt">Samsung  S22</h1>
+                <h2 class="price3">₹65999 <span class="actualprice">79999</span></h2>
+                <div class="addtocart2">Add To Cart</div>
+          </div>
+         
+        
+       </div>
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+      </div>
+        </div>
+
+
+  <div class="reviews swiper mySwiper2">
+     <h1 class="reviewtitle">Reviews</h1>
+     <div class="swiper-wrapper">
+      
+   
+       <div class="review-box swiper-slide">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum mollitia
+               reiciendis placeat quibusdam expedita ab repellendus aut quam. Omnis assumenda 
+             <h1 class="reviewername">Vishal</h1>
+       </div>
+       <div class="review-box swiper-slide">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum mollitia
+               reiciendis placeat quibusdam expedita ab repellendus aut quam. Omnis assumenda 
+             <h1 class="reviewername">Pratiksha</h1>
+       </div>
+       <div class="review-box swiper-slide">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum mollitia
+               reiciendis placeat quibusdam expedita ab repellendus aut quam. Omnis assumenda 
+             <h1 class="reviewername">Ayesha</h1>
+       </div>
+     </div>
+     <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+  </div>
+
+  <div class="freeshiping">
+    <h1 class="freeshiping-title">Deal of the Day</h1>
+
+    <div class="freeshiping-box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw7hGQfuzvWwsk4y4bj4pmWmNci-k7xL9Ov-_tPpCoFfxyJfdDapMbE_KJ1zTNETEsaSk&usqp=CAU" class="freeshiping-image" alt="">
+      <h1 class="reviewername" style="text-align: center;" >Free Shipping </h1>
+    </div>
+    <div class="freeshiping-box">
+      <img src="https://corp.ezetap.com/uploads/blogs/Blog-1052x621-1_(1).jpg" class="freeshiping-image" alt="">
+      <h1 class="reviewername" style="text-align: center;" >Easy Payments </h1>
+    </div>
+    <div class="freeshiping-box">
+      <img src="https://www.apsfulfillment.com/wp-content/uploads/2017/03/APS_28-1024x683.jpg" class="freeshiping-image"  alt="">
+      <h1 class="reviewername" style="text-align: center;" >7 Day Replacement</h1>
+    </div>
+
+  </div>
+
+  <div class="TV-deal">
+    <div class="tv-deal-image" >
+      <img style=" width: 413px; height: 250px; margin-left: -5px;" src="https://www.androidauthority.com/wp-content/uploads/2020/11/Samsung-70-inch-Class-6-Series-LED-4K-UHD-Smart-Tizen-TV-Promo-Shot-e1654251251908.jpg.webp" alt="">
+    </div>
+    <div class="TV-deal-offer">
+      <h1 class="TV-deal-offer-title">Samsung Smart TV</h1>
+      <h2 style="color: white;">Upto 20% Off On First Shopping</h2>
+      <h1 class="TV-deal-price">Starting ₹9999</h1>
+      <div class="addtocart TV-deal-cart-btn" >
+        Add To Cart
+      </div>
+    </div>
+  </div>
+  <div class="brand">
+    <div class="brand-image">
+      <img class="brand-image" src="https://qph.cf2.quoracdn.net/main-qimg-46e4cf54e93ad179ff19843dde22f4d6-lq" alt="">
+    </div>
+    <div class="brand-image">
+      <img class="brand-image" src="https://cms-cdn.thesolesupplier.co.uk/2022/03/adidas-feature-image-place-holder-w900_w380.jpg" alt="">
+    </div>
+    <div class="brand-image">
+      <img class="brand-image" src="https://image3.mouthshut.com/images/imagesp/925668712s.jpg" alt="">
+    </div>
+    <div class="brand-image">
+      <img class="brand-image hnm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1024px-H%26M-Logo.svg.png" alt="">
+    </div>
+  </div>
+  <div class="Contact">
+     <h1 class="Contact-title">Contact Us</h1>
+     <h1 class="Contact-title2 Contact-title" >Write your E-mail Id here</h1>
+     <form action="mailto:vishalmeena2486@gmail.com" method="post" enctype="text/plain">
+       <input type="email" class="Contact-email-input">
+       <button class="email" type="submit">Email</button>
+     </form>
+  </div>
+  <div class="footer" >
+    <h1 class="footer-title">Follow Us</h1>
+  
+    <div class="socialmedia">
+      <a href="https://www.instagram.com" target="_blank"  class="socialmedialink"> 
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="socialmedialink">
+         Linkedin
+      </a>
+        <a href="https://www.facebook.com" target="_blank" class="socialmedialink" >
+        Facebook</a>
+    <div>
+  </div>
+
+   
+
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body> 
+</html>

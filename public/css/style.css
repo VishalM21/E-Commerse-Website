@@ -1,0 +1,804 @@
+body{
+    margin: 0;
+
+}
+
+.head{
+    background-color: #2e2e2e;
+    margin-top: 0;
+    width: 97.21%;
+    height: 70px;
+    padding-left: 40px;
+
+
+}
+
+.head2{
+    background-color: #2e2e2e;
+    margin-top: 0;
+    width: 97.21%;
+    height: 70px;
+    padding-left: 40px;
+
+
+}
+#title{
+    margin: 0;
+    margin-top: 13px;
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+    
+
+}
+.kart{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 23px;
+    top: 12px;
+}
+.kart2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 23px;
+    top: 12px;
+}
+.search{
+    width: 300px;
+    float: right;
+    margin: 25px;
+    margin-right: 75px;
+    margin-left: 0px;
+    height: 20px;
+    border-radius: 30px;
+    border: solid;
+    border-color: white;
+}
+
+.navbar{
+    display: inline-block;
+ 
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+li{
+    display: inline-block;
+}
+.container{
+    width: 100%;
+    height: 730px;
+    background-color: #2e2e2e;
+
+}
+.container-discription{
+    margin: 30px;
+    width: 40%;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    
+}
+.price{
+    color:#EB4D4B;
+}
+.price2{
+    color:#EB4D4B;
+    position: relative;bottom: 55px;left: 100px;width: 150px;
+}
+.price3{
+    color:#EB4D4B;
+    position: relative;bottom: 45px;left: 100px;width: 150px;
+}
+.actualprice{
+    text-decoration: line-through;color: #4834D4;
+}
+.addtocart{
+    background-color: #4834D4;
+    width: 150px;
+    height: 38px;
+    border-radius: 30px;
+    line-height: 37px;
+    color: white;
+    margin: auto;
+    float: none;
+
+}
+.addtocart2{
+    background-color: #4834D4;
+    width: 150px;
+    height: 38px;
+    border-radius: 30px;
+    line-height: 37px;
+    color: white;
+    margin: auto;
+    float: none;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+}
+.img1{
+   width: 300px;
+   transform: rotate(35deg);
+   position: relative;
+   left: 100px;
+   bottom: 100px;
+
+}
+.img1-pic{
+    width: 600px;height:600px;
+}
+.img2-pic{
+    width: 500px;height:500px; transform: rotate(-35deg);
+}
+
+div{
+    float: left;
+}
+.img2{
+    width: 300px;
+    position: relative;
+    left: 150px;
+    transform: rotate(35deg);
+    top: 20px;
+   
+}
+.img3{
+    width: 300px;
+    position: relative;
+    left: 150px;
+    transform: rotate(35deg);
+    top: -46px;
+   
+
+}
+
+.scrollbotton{
+    position: absolute;
+    top: 300px;
+    background-color: #EB4D4B;
+    border: 0;
+    border-radius: 30px;
+    height: 100px;
+    width: 30px;
+    left: 10px;
+}
+
+.scrollbotton2{
+    position: absolute;
+    background-color: #EB4D4B;
+    border-radius: 30px;
+    height: 100px;
+    width: 30px;
+    border: 0;
+    right: 7px;
+    top: 300px;
+ 
+}
+#products{
+    width: 1430px;
+    text-align: center;
+    color: #4834D4;
+    margin-top: 70px;
+}
+.shoes{
+    width: 100%;
+    height: 600px;
+    /* border: 5px black solid; */
+}
+
+.title{
+    color: #EB4D4B;
+    padding-left: 95px;
+}
+.product-box{
+    width: 270px;
+    height: 400px;
+    box-shadow: 0 0 0.3rem rgb(0 0 0 / 50%);
+    border-radius: 0.5rem;
+    margin: 35px;
+
+}
+.product-box:hover{
+    height: 450px;
+}
+
+.img-box{
+    width: 270px;
+    height: 270px;
+}
+.img-box:hover{
+    width: 300px;
+    height: 300px;
+}
+
+
+.shoe1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 0;
+    color:#4834D4;
+    position: relative;
+    bottom: 40px;
+
+}
+.watch{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 0;
+    color:#4834D4;
+    position: relative;
+    bottom: 20px;
+}
+.nametshirt{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 0;
+    color:#4834D4;
+    position: relative;
+    bottom: 5px;
+}
+
+.reviews{
+    width: 100%;
+    height: 600px;
+    background-color: #4834D4;
+    margin-top: 50px;
+}
+.reviewtitle{
+    color: #EB4D4B;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.review-box{
+    width: 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom-left-radius: 60px;
+    height: 120px;
+    position: relative;
+    top: 100px;
+  
+}
+.reviewername{
+    margin: 0;
+    margin-top: 10px;
+    width: 310px;
+    text-align: right;
+    color: #EB4D4B;
+}
+.freeshiping{
+    width: 100%;
+    height: 500px;
+   
+}
+.freeshiping-title{
+    text-align: center;
+    color: #4834D4;
+    margin-top: 50px;
+    font-size: 40px;
+  
+
+}
+.freeshiping-box{
+    width: 300px;
+    height: 220px;
+    margin: 60px;
+    margin-left: 100px;
+}
+.freeshiping-image{
+    width: 300px;
+    height: 170px;
+}
+.TV-deal{
+    width: 100%;
+    height: 500px;
+    background-color: #EB4D4B;
+}
+.tv-deal-image{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 133px;
+    left: 337px;
+
+}
+.TV-deal-offer{
+    float: right;
+    position: relative;
+    top: 150px;
+    right: 320px;
+}
+.TV-deal-offer-title{
+    color: #4834D4;
+    text-shadow: 4px black;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.TV-deal-price{
+    font-size: 40px;
+    color: white;
+    
+}
+
+.TV-deal-cart-btn{
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    right: 70px;
+}
+.Contact{
+    height: 350px;
+    width: 100%;
+    background-color: #9e91ff;
+
+}
+.Contact-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.Contact-email-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    margin-left: 571px;
+    margin-top: 27px;
+    background-color: #2e2e2e;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+.email{
+    width: 150px;
+    height: 40px;
+    background-color: #EB4D4B;
+    border-radius: 30px;
+    position: relative;
+    top: 80px;
+    right: 235px;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    font-size: 22px;
+    border: 0;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #2e2e2e;
+}
+.footer2{
+    width: 100%;
+    height: 250px;
+    background-color: #2e2e2e;
+}
+.footer-title{
+    color: white;
+    text-align: center;
+    margin-top: 46px;
+}
+
+
+.socialmedia{
+    margin-left: 417px;
+    margin-top: 45px;
+    height: 100px;
+}
+.socialmedialink{
+    margin: 70px;
+    color: #EB4D4B;
+   
+}
+.Contact-title2{
+    font-size: 35px;
+}
+
+
+
+.addtocart:hover{
+    background-color: #EB4D4B;  
+    width: 160px;
+    height: 43px;
+    font-size: 20px;
+    line-height: 2;
+
+}
+.addtocart2:hover{
+    background-color: #EB4D4B;  
+    width: 160px;
+    height: 43px;
+    font-size: 20px;
+    line-height: 2;
+
+}
+.brand{
+    width: 100%;
+    height: 300px;
+}
+.brand-image{
+    width: 230px;
+    height: 180px;
+    margin: 30px 55px;
+    
+    
+}
+.hnm{
+    width: 180px;height:150px;
+}
+
+/* product page */
+.product-container{
+    width: 100%;
+    height: 600px;
+}
+.product-container-image {
+    width: 448px;
+    height: 445px;
+    box-shadow: 0 0 0.3rem rgb(0 0 0 / 50%);
+    border-radius: 0.5rem;
+    margin-left: 117px;
+    margin-top: 100px;
+    border: 0 white;
+
+}
+.photoselector{
+    position:relative;
+    border-radius: 0.5rem;
+    top:17px;
+    width: 342px;
+    height: 70px;
+    padding-left: 106px;
+   
+
+}
+.shown-image{
+    width: 344px;
+    height: 358px;
+    display: block;
+    margin: 0px auto;
+}
+.product-container-details{
+    width: 554px;
+    height: 451px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+.product-container-title{
+    color: #EB4D4B;
+
+}
+.size{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0.3rem rgb(0 0 0 / 50%);
+    border-radius: 50px;
+    margin: 5px;
+    line-height: 3.4;
+    
+}
+
+.product-container-addtocart {
+    position: relative;
+    top: 99px;
+    left: -363px;
+    background-color: #EB4D4B;
+    width: 192px;
+    height: 43px;
+    border-radius: 30px;
+    line-height: 2.7;
+    text-align: center;
+    color: white;
+
+}
+.product-description{
+    position: relative;
+    top: 102px;
+}
+.photoselector-1{
+    width: 67px;
+    height: 70px;
+    box-shadow: 0 0 0.3rem rgb(0 0 0 / 50%);
+}
+.photoselector-1-img{
+    width: 67px;
+    height: 70px;
+}
+.cart-box{
+    width: 100%;
+    height: 400px;
+}
+.emty{
+    text-align: center;
+     font-family: 'Bangers', cursive;
+     margin-top:150px;
+     font-size: 60px;
+     opacity: 0.5;
+
+}
+.cartshoptitle{
+    color: #EB4D4B;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    #title{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    .head{
+        background-color: #2e2e2e;
+        margin-top: 0;
+        width: 373px;
+        height: 70px;
+        padding-left: 40px; 
+    }
+    .search{
+        width: 150px;
+        margin-right: 79px;
+    }
+    .navbar{
+        display: none;
+    }
+    .container{
+        width: 413px;
+       
+    }
+    .scrollbotton2 {
+        position: absolute;
+        background-color: #EB4D4B;
+        border-radius: 30px;
+        height: 107px;
+        width: 18px;
+        border: 0;
+        right: -20px;
+        top: 300px;
+    }
+    .scrollbotton {
+        height: 107px;
+        width: 18px;
+        left: 2px;
+    }
+    .container  div{
+        float: none;
+    }
+
+    .container-discription {
+        margin: 64px;
+        width: 60%;
+        text-align: center;
+        margin-top: 0;
+        position: relative;
+        top: 341px;
+        left: 20px;
+    }
+
+    .img1{
+        top: -400px;
+        width: 100px;
+    }
+    .img1-pic{
+        width: 266px;
+        height: 279px;
+    }
+    .img2-pic{
+        width: 300px;height:300px;
+    }
+    .img2{
+        position: absolute;
+        top: 102px;
+        left: 42px;
+    }
+    .img3{
+        width: 300px;height:300px;
+        position: absolute;
+        top: 102px;
+        left: 42px;
+    }
+    .title {
+        color: #EB4D4B;
+        padding-left: 29px;
+    }
+    #products {
+        width: 414px;
+        margin-top: 59px;
+
+    }
+    .product-box{
+        margin: 21px;
+    }
+    .next{
+        position: relative;
+        left: 20px;
+    }
+    .reviews {
+        width: 413px;
+        height: 398px;
+    }
+    .review-box{
+        top: 10px;
+        right: 80px;
+    }
+    .freeshiping {
+        width: 413px;
+        height: 704px;
+    }
+    .freeshiping-image {
+        width: 121px;
+        height: 79px;
+        margin-left: 40px;
+    }
+    .freeshiping-box{
+        width: 197px;
+        height: 150px;
+        margin: 17px;
+        margin-left: 103px;
+        
+    }
+    .reviewername {
+        width: 196px;
+        font-size: 25px;
+   
+    }
+    .TV-deal{
+        width: 413px;
+        height: 560px;
+    }
+    .tv-deal-image{
+        top: 0;
+       left: 5px;
+    }
+    .TV-deal-offer {
+        
+        top: 1px;
+        right: 35px;
+    }
+    .TV-deal-price{
+        margin-left: 39px;
+    }
+    .TV-deal-cart-btn{
+        right: -3px;
+    }
+    .brand{
+        width: 413px;
+        height: 140px;
+    }
+    .brand-image {
+        width: 88px;
+        height: 75px;
+        margin: 20px 7px;
+    }
+    .footer{
+        width: 413px;
+    }
+    .hnm {
+        width: 84px;
+        height: 59px;
+    }
+    .Contact{
+        width: 413px;
+    }
+    .Contact-title{
+        font-size: 35px;
+    }
+    .Contact-title2{
+        font-size: 25px;
+    }
+    .Contact-email-input{
+        width: 228px;
+        margin-left: 81px;
+        margin-top: 43px;
+    }
+    .email{
+        top: 55px;
+    
+        left: 141px;
+    }
+    .socialmedia {
+        margin-left: 7px;
+        margin-top: 58px;
+        height: 33px;
+    }
+    .socialmedialink{
+        margin: 33px;
+    }
+    .kart{
+        right: -5px;
+        top: 14px;
+    }
+    .head2{
+        width: 468px;
+      }
+    .kart2{
+        right: -94px;
+        top: 12px;
+    }
+    .product-container{
+        width: 100%;
+        height: 1059px;
+    }
+    .product-container-image{
+        margin-left: 30px;
+        margin-top: 76px;
+    }
+    .product-container-details {
+        width: 483px;
+        height: 451px;
+        margin-top: 51px;
+        margin-left: 17px;
+    }
+    .size{
+        width: 39px;
+        height: 40px;
+        box-shadow: 0 0 0.3rem rgb(0 0 0 / 50%);
+        border-radius: 50px;
+        margin: 15px;
+        line-height: 2.6;
+        padding-right: 4px;
+    }
+    .product-container-addtocart {
+        position: relative;
+        top: 40px;
+        left: -5px;
+        background-color: #EB4D4B;
+        width: 484px;
+        height: -79px;
+        border-radius: 30px;
+        line-height: 2.3;
+        text-align: center;
+        color: white;
+        height: 69px;
+        font-size: 30px;
+    }
+    .product-description {
+        position: relative;
+        top: 91px;
+        color: black;
+    }
+    .footer2{
+        width: 508px;
+    }
+    .cartshoptitle {
+        color: #EB4D4B;
+        text-align: center;
+        margin-top: 96px;
+        margin-left: 93px;
+    }
+    .emty {
+       
+        margin-top: 150px;
+     
+        margin-left: 107px;
+    }
+   
+
+}
