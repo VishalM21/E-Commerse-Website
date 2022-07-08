@@ -1,4 +1,5 @@
 # E-commerse-Website
+it is a responsive website that let's you shop 
 # To Run
 In the project directory you can run
 
