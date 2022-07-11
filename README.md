@@ -1,12 +1,9 @@
 # E-commerse-Website
-it is a responsive website that let's you shop 
+it is a responsive website that let's you shop what you want
+
 # To Run
-In the project directory you can run
+In the project directory you can run command
 
-npm install
-
-and then RUN
-
-node server.js
+```npm i && node server.js```
 
 Go to http://localhost:3000/
